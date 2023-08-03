@@ -43,6 +43,7 @@ public class SocketTest extends JFrame {
         tabbedPane.addTab("Client", ball, (Component) client, "Test any server");
         tabbedPane.addTab("Server", ball, server, "Test any client");
         tabbedPane.addTab("Udp", ball, udp, "Test any UDP Client or Server");
+        tabbedPane.addTab("WebSocket", ball, udp, "Test any Websocket Client or Server");
         tabbedPane.addTab("About", ball, about, "About SocketTest");
 
         tabbedPane.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
